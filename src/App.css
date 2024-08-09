@@ -24,6 +24,12 @@ h1 {
   color: #f5f6fa;
 }
 
+h2 {
+  color: #44bd32;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
 .buttons {
   display: flex;
   gap: 10px;
@@ -39,8 +45,9 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  opacity: 0.9;
+button:disabled {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
 }
 
 button:nth-child(1) {
